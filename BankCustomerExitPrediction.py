@@ -73,4 +73,6 @@ y_pred = (y_pred > 0.5)
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix,accuracy_score
 cm = confusion_matrix(y_test, y_pred)
+print(cm)
 accuracy=accuracy_score(y_test,y_pred)
+print(accuracy)
